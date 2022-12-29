@@ -12,7 +12,7 @@ class CartController extends Controller
 
 
 
-        $cart = DB::select('select * from carts');
+        dd(Cart::all());
 
           return view("index");
     }
