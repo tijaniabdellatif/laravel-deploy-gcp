@@ -12,8 +12,8 @@ class CartController extends Controller
 
 
 
-        dd(Cart::class);
 
+        dd(Cart::find(1));
           return view("index");
     }
 }
