@@ -10,8 +10,7 @@ class CartController extends Controller
     public function index(){
 
 
-          $cart = Cart::find(1);
 
-          return view("index",compact('cart'));
+          return view("index");
     }
 }
